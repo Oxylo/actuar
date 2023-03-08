@@ -1,10 +1,10 @@
 # actuar
 Example package in R.
 
-#1. Installation
+# 1. Installation
 This section contains installation instructions, both for the package User and for the package Mantainer.
 
-##1.1 Installation instructions for the package User
+## 1.1 Installation instructions for the package User
 
 1. Install the latest version of R suitable for your OS: https://cran.r-project.org/
 2. Install the latest version of RStudio suitable for your OS: https://posit.co/download/rstudio-desktop/
@@ -14,13 +14,12 @@ This section contains installation instructions, both for the package User and f
   indented code block
 </code></pre>
 
-##1.2 Installation instructions for the package Mantainer
+## 1.2 Installation instructions for the package Mantainer
 
 1. Perform steps 1, 2 and 3 from section 1.1
-2. Open RStudio and run the following code to install the R developement packages:
+2. Open RStudio and run the following code to install the R development packages:
 
-<pre><code>a simple
-  indented code block
+<pre><code>install.packages(c("devtools", "roxygen2", "testthat", "knitr"))
 </code></pre>
 
 3. Optional: for building packages from source you need a compiler and some additional tools:
