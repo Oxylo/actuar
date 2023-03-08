@@ -10,8 +10,9 @@ This section contains installation instructions, both for the package User and f
 2. Install the latest version of RStudio suitable for your OS: https://posit.co/download/rstudio-desktop/
 3. Open RStudio and run the following code to install the actuar package: 
 
-<pre><code>a simple
-  indented code block
+<pre><code>install.packages("devtools")
+library(devtools)
+install_github("Oxylo/actuar")
 </code></pre>
 
 ## 1.2 Installation instructions for the package Mantainer
