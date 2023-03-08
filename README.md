@@ -30,6 +30,5 @@ Important: when prompted to “Select Additional Tasks” *do not* select the bo
 
 * Ubuntu: install R development tools:
 
-<pre><code>
-sudo apt install r-base-dev
+<pre><code>sudo apt install r-base-dev
 </code></pre>
