@@ -32,3 +32,11 @@ Important: when prompted to “Select Additional Tasks” *do not* select the bo
 
 <pre><code>sudo apt install r-base-dev
 </code></pre>
+
+4. Check whether you dev tools are up to date running the following line of code in RStudio:
+
+<pre><code>devtools::dev_sitrep()
+</code></pre>
+
+If the output of this command suggests any tools are outdated, please upgrade.
+
