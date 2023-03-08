@@ -26,7 +26,7 @@ This section contains installation instructions, both for the package User and f
 
 * Windows:  download from https://cran.r-project.org/bin/windows/Rtools/ and run the installer.
 
-Important: when prompter to “Select Additional Tasks” *do not* select the box for “Edit the system PATH” but *do* select the box for “Save version information to registry”.
+Important: when prompted to “Select Additional Tasks” *do not* select the box for “Edit the system PATH” but *do* select the box for “Save version information to registry”.
 
 * Ubuntu: install R development tools:
 
