@@ -4,7 +4,7 @@
 \alias{pv}
 \title{Present Value}
 \usage{
-pv(rate, nperiods, payment, fvalue, prae = TRUE)
+pv(rate, nperiods, payment, fvalue = 0, prae = TRUE)
 }
 \arguments{
 \item{rate}{Required float. The interest rate per period. For example, if you obtain an automobile loan at a 10 percent annual interest rate and make monthly payments, your interest rate per month is 10\%/12, or 0.83\%. You would enter 10\%/12, or 0.83\%, or 0.0083, into the formula as the rate.}

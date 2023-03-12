@@ -16,7 +16,7 @@
 #' @examples
 #' # the monthly payments on a $10,000, four-year car loan at 12 percent are $263.33.
 #' pv(rate=0.01, nperiods=48, payment=-263.33)
-pv <- function(rate, nperiods, payment, fvalue, prae = TRUE) {
+pv <- function(rate, nperiods, payment, fvalue = 0, prae = TRUE) {
   if (rate == 0) {
     out <- -1 * (payment * nperiods + fvalue)
   } else {
