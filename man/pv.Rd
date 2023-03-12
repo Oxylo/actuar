@@ -17,8 +17,15 @@ pv(rate, nperiods, payment, fvalue, prae = TRUE)
 
 \item{prae}{Optional Boolean. True when payments are due at the beginning of the period, FALSE when payments are due at the end of the period.}
 }
+\value{
+Float.
+}
 \description{
 PV calculates the present value of a loan or an investment, based on a constant interest rate.
 You can use PV with either periodic, constant payments (such as a mortgage or other loan),
 or a future value that's your investment goal.
+}
+\examples{
+# the monthly payments on a $10,000, four-year car loan at 12 percent are $263.33.
+pv(rate=0.01, nperiods=48, payment=-263.33)
 }

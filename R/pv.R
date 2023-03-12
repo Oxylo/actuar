@@ -10,10 +10,12 @@
 #' @param fvalue Optional float. The future value, or a cash balance you want to attain after the last payment is made. If fvalue is omitted, it is assumed to be 0 (the future value of a loan, for example, is 0). For example, if you want to save $50,000 to pay for a special project in 18 years, then $50,000 is the future value. You could then make a conservative guess at an interest rate and determine how much you must save each month. If fvalue is omitted, you must include the payments argument.
 #' @param prae Optional Boolean. True when payments are due at the beginning of the period, FALSE when payments are due at the end of the period.
 #'
-#' @return
+#' @return Float.
 #' @export
 #'
 #' @examples
+#' # the monthly payments on a $10,000, four-year car loan at 12 percent are $263.33.
+#' pv(rate=0.01, nperiods=48, payment=-263.33)
 pv <- function(rate, nperiods, payment, fvalue, prae = TRUE) {
   if (rate == 0) {
     out <- -1 * (payment * nperiods + fvalue)
